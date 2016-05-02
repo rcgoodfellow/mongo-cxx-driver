@@ -16,6 +16,8 @@
 
 #include <bsoncxx/config/private/prelude.hpp>
 
+#include <string>
+
 namespace bsoncxx {
 BSONCXX_INLINE_NAMESPACE_BEGIN
 
