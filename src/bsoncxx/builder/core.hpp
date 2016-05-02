@@ -256,6 +256,7 @@ class BSONCXX_API core {
     /// Append a native int64_t as a BSON 64-bit signed integer.
     ///
     void append(std::int64_t value);
+    void append(long long value);
 
     ///
     /// Append an oid as a BSON ObjectId.

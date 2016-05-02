@@ -377,6 +377,10 @@ void core::append(std::int64_t value) {
     append(types::b_int64{value});
 }
 
+void core::append(long long value) {
+  append(static_cast<std::int64_t>(value));
+}
+
 void core::append(bool value) {
     append(types::b_bool{value});
 }
