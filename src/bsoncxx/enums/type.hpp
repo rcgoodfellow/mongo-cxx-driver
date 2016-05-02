@@ -12,8 +12,6 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include <string>
-
 #ifndef BSONCXX_ENUM
 #error "This header is only meant to be included as an X-macro over BSONCXX_ENUM"
 #endif
